@@ -14,3 +14,5 @@ git remote -v: This provides more detail, showing the names and URLs for both fe
 
 Stashes 📦
 git stash list: This command shows all the stashes you have saved, which are temporary changes that you can come back to later.
+
+this is pull 
