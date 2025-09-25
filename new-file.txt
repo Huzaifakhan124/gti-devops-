@@ -1,0 +1,16 @@
+git ls-files: This command lists all files that are currently being tracked by Git.
+
+git ls-tree -r --name-only HEAD: This is a more verbose way to list all tracked files in your repository from the most recent commit (HEAD). The --name-only flag ensures that only the file names are shown.
+
+Branches 🌳
+git branch: This command lists all local branches in your repository. The active branch will have an asterisk (*) next to its name.
+
+git branch -a: Use the -a (all) flag to list both local and remote-tracking branches.
+
+Remotes ☁️
+git remote: This command lists the short names of your remote repositories.
+
+git remote -v: This provides more detail, showing the names and URLs for both fetch and push operations.
+
+Stashes 📦
+git stash list: This command shows all the stashes you have saved, which are temporary changes that you can come back to later.
